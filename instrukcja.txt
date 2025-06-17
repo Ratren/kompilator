@@ -1,0 +1,65 @@
+# Kompilacja:
+Aby skompilować kod należy uruchomić skrypt kompiluj.sh i podać nazwę pliku z kodem
+./kompiluj.sh program.txt
+
+# Język:
+Wszystko może być napisane w jednej linii. Białe znaki są ignorowane
+
+-STRUKTURA PROGRAMU
+program <instrukcje> zakończ program
+
+
+- Tworzenie zmiennych:
+CAŁKOWITA nazwa_zmiennej
+- Tworzenie z przypisaniem
+CAŁKOWITA nazwa_zmiennej = <wyrażenie>
+- przypisywanie wartości do już utworzonej zmiennej
+nazwa_zmiennej = <wyrażenie>
+
+
+-instrukcja "jeżeli"
+jeżeli <warunek> wtedy <instrukcje> koniec
+-instrukcja "jeżeli" z jednym "jaknie"
+jeżeli <warunek> wtedy <instrukcje> jaknie wtedy <instrukcje> koniec
+-instrukcja "jeżeli" z "jaknie jeżeli" (może ich być dowolna liczba i łączą się ze zwykłym "jaknie")
+jeżeli <warunek> wtedy <instrukcje> jaknie jeżeli <warunek> wtedy <instrukcje> koniec
+
+
+-pętla "dopóki"
+dopóki <warunek> wtedy <instrukcje> koniec
+
+!!! UWAGA !!!
+Zarówno w przypadku pętli jak i instrukcji warunkowej musi znaleźć się conajmniej jedna instrukcja
+warunki nie mogą być wyrażeniem tj. nie można robić x + 5 == 16. W takim przypadku należy utworzyć nową zmienną do porównania.
+
+- Operatory logiczne
+&& - and
+|| - or
+! - not
+
+- Operatory arytmetyczne
++
+-
+*
+/
+
+- Operatory porównań
+>
+<
+>=
+<=
+==
+!=
+
+- operacje IO
+wypisz <wartość>
+przeczytaj <zmienna>
+
+-komentarze jednoliniowe
+# to komentarz
+
+-komentarze wieloliniowe
+/#
+dużo komentarzy
+dużo komentarzy
+#/

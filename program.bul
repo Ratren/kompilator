@@ -1,0 +1,32 @@
+program
+# to jest jakiś komentarz
+
+/#
+wiele komentarzy 
+wiele komentarzy
+wiele komentarzy
+#/
+
+CAŁKOWITA prawda = 1
+CAŁKOWITA liczba_do_pobrania
+
+
+dopóki prawda wtedy
+  wypisz "wczytaj liczbę\n"
+  przeczytaj liczba_do_pobrania
+
+  jeżeli liczba_do_pobrania == 20 wtedy
+    wypisz "ajaj zbyt nisko\n"
+  jaknie jeżeli liczba_do_pobrania == 12 wtedy
+    wypisz liczba_do_pobrania * 16
+  jaknie jeżeli liczba_do_pobrania == 99 wtedy
+    prawda = 0
+    wypisz "TRAFIŁEŚ!\n"
+  jaknie wtedy
+#    prawda = 0
+    wypisz "to nie to\n"
+  koniec
+koniec
+
+zakończ program
+
